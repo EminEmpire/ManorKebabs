@@ -9,28 +9,29 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&amp;display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
-    <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark" id="mainNav">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark navbar-dark" id="mainNav" data-bs-theme="light">
         <div class="container"><a class="navbar-brand" href="#page-top"><img src="assets/img/text.png" style="height: 100px;"></a><button data-bs-toggle="collapse" data-bs-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto text-uppercase">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Reviews</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul><button class="btn btn-primary mx-auto" type="button" style="color: var(--bs-emphasis-color);"><a href="#order"><strong><span style="color: rgb(0, 0, 0); background-color: rgba(254, 200, 16, 0);">ORDER ONLINE</span></strong></a></button>
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#reviews">Reviews</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#contact">Contact</a></li>
+                </ul><button class="btn mx-auto orderbtn" type="button"><a id="emp" href="#order"><strong><span style="color: rgb(0, 0, 0); background-color: rgba(254, 200, 16, 0);">ORDER ONLINE</span></strong></a></button>
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image: url('assets/img/pexels-rdne-5779787.webp');">
+    <header id="home" class="masthead" style="background-image: url('assets/img/pexels-rdne-5779787.webp');">
         <div class="container">
-            <div class="intro-text"><img id="logo" src="assets/img/kebab.png" style="margin-top: -35px;">
+            <div class="intro-text"><img class="swing animated" id="logo" src="assets/img/kebab.png" style="margin-top: -35px;">
                 <div class="intro-lead-in"></div>
-                <div class="intro-heading text-uppercase"><span style="text-shadow: 0px 0px 8px rgb(0,0,0);">Timeless Taste since 1978</span></div><a class="btn btn-primary btn-xl text-uppercase" role="button" href="#menu" style="box-shadow: inset 0px 0px 10px;margin-top: 63px;"><span style="color: rgb(0, 0, 0);">Check OuR Menu</span></a>
+                <div class="intro-heading text-uppercase"><span style="text-shadow: 0px 0px 8px rgb(0,0,0);">Timeless Taste since 1978</span></div><a class="btn btn-xl text-uppercase orderbtn" role="button" href="#menu" style="margin-top: 63px;"><span style="color: rgb(0, 0, 0);">Check OuR Menu</span></a>
             </div>
         </div>
     </header>
@@ -42,22 +43,22 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-star-o fa-stack-1x fa-inverse" style="font-size: 60px;"></i></span>
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x" style="color: #fd7e14;"></i><i class="fa fa-star-o fa-stack-1x fa-inverse" style="font-size: 60px;"></i></span>
                     <h4 class="section-heading" style="padding: 20px;">Generations Of Flavour</h4>
                     <p class="text-muted"><span style="color: rgb(13, 13, 13);">For over four decades, Manor Kebabs has been a family-run establishment, with our special recipes and methods handed down from one generation to the next. Our commitment to using the finest ingredients and traditional cooking methods has made our kebabs a beloved staple in the community. We take pride in maintaining the authenticity and integrity of our recipes, offering a taste experience that transcends time.</span></p>
                 </div>
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-thumbs-o-up fa-stack-1x fa-inverse"></i></span>
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x" style="color: #fd7e14;"></i><i class="fa fa-thumbs-o-up fa-stack-1x fa-inverse"></i></span>
                     <h4 class="section-heading" style="padding: 20px;">Commitment To Quality</h4>
                     <p class="text-muted"><span style="color: rgb(13, 13, 13);">At Manor Kebabs, quality is at the heart of everything we do. From selecting the freshest meats and spices to the meticulous preparation of each kebab, we ensure that every dish meets our high standards. Our dedication to excellence has earned us a loyal customer base, who return time and again for the unparalleled taste that only decades of expertise can provide.</span></p>
                 </div>
-                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x text-primary"></i><i class="fa fa-map-marker fa-stack-1x fa-inverse"></i></span>
+                <div class="col-md-4"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x" style="color: #fd7e14;"></i><i class="fa fa-map-marker fa-stack-1x fa-inverse"></i></span>
                     <h4 class="section-heading" style="padding: 15px;">Community And Tradition</h4>
                     <p class="text-muted"><span style="color: rgb(0, 0, 0);">Manor Kebabs is more than just a kebab shop; it is a gathering place for friends, families, and generations of customers who have become part of our extended family. Our commitment to the community is reflected in our friendly service and welcoming atmosphere. We are proud to be a part of countless celebrations, milestones, and everyday meals, continuing a tradition of delicious food and warm hospitality that started in 1978.</span></p>
                 </div>
             </div>
         </div>
     </section>
-    <section class="bg-light" id="portfolio" style="padding-top: 35px;">
+    <section class="bg-light" id="specialities" style="padding-top: 35px;padding-bottom: 0px;border-bottom-style: solid;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -122,6 +123,15 @@
             </div>
         </div>
     </section>
+    <section class="bg-light" id="reviews" style="padding-top: 35px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="text-uppercase section-heading" style="margin-bottom: 44px;">Reviews</h2><div class="embedsocial-hashtag" data-ref="6e303af56311ec712da8fe8e2999be54cb843eb5"> </div> <script> (function(d, s, id) { var js; if (d.getElementById(id)) {return;} js = d.createElement(s); js.id = id; js.src = "https://embedsocial.com/cdn/ht.js"; d.getElementsByTagName("head")[0].appendChild(js); }(document, "script", "EmbedSocialHashtagScript")); </script>
+                </div>
+            </div>
+        </div>
+    </section>
     <section id="order" class="py-5">
         <h2 class="text-uppercase section-heading" style="margin-bottom: 44px;text-align: center;">Order On</h2>
         <div class="container">
@@ -154,7 +164,7 @@
                             </div>
                             <div class="w-100"></div>
                             <div class="col-lg-12 text-center">
-                                <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Send Message</button>
+                                <div id="success"></div><button class="btn btn-xl text-uppercase" id="sendMessageButton" type="submit"><span style="color: rgb(0, 0, 0);">Send Message</span></button>
                             </div>
                         </div>
                     </form>
@@ -309,6 +319,7 @@
     </div>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/smart-forms.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
     <script src="assets/js/agency.js"></script>
 </body>
 
