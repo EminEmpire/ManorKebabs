@@ -1,0 +1,12 @@
+#aboutus {
+}
+
+#logo {
+  filter: drop-shadow(5px 5px 5px black);
+  height: 300px;
+}
+
+#emp {
+  text-decoration: none;
+}
+
